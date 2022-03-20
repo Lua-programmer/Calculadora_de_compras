@@ -26,7 +26,7 @@ header {
 }
 
 .titulo-maiusculo {
-    width: 15%;
+    width: 11%;
     font-size: 6rem;
 }
 
@@ -95,4 +95,17 @@ input[type=submit] {
 
 h3.preco-produto {
     text-align: right;
+}
+
+.soma-produto {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    padding-right: 1rem;
+    margin: 0 10rem 2rem 0;
+}
+
+.soma-produto h1 {
+    color: #3A2C2C;
+    font-size: 2rem;
 }
