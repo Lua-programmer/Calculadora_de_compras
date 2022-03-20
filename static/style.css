@@ -6,6 +6,11 @@
     font-family: 'Sansita', sans-serif;
 }
 
+body{
+    background-color: #DFB0A0;
+    height: auto;
+}
+
 header {
     width: 100%;
     background-color: #EC000C;
@@ -13,7 +18,7 @@ header {
 
 .logo {
     width: 30%;
-    padding: 1.2rem 0;
+    padding: 1rem 0;
     color: #FFC66D;
     display: flex;
     align-items: center;
@@ -28,4 +33,66 @@ header {
 .titulo-minusculo {
     width: 25%;
     padding-top: 1rem;
+}
+
+.informacoes {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+input[type=text],
+input[type=number]
+{
+    background-color: #E0DADA;
+    border:#EC000C solid .1rem;
+    outline: 0;
+    padding-left: 1rem;
+    height: 2rem;
+    font-size: 1rem;
+
+}
+
+input[type=text] {
+   width: 31.25rem;
+   border-radius: .5rem 0 0 .5rem;
+}
+
+input[type=number] {
+    border-radius: 0 .5rem .5rem 0;
+}
+
+input[type=submit] {
+    margin-left: 2rem;
+    padding: 0 2rem;
+    font-size: 1rem;
+    border-radius: .5rem;
+    border: none;
+    background-color: #EC000C;
+    color: #FFC66D;
+    cursor: pointer;
+}
+
+.lista-produtos {
+    display: flex;
+    justify-content: center;
+}
+
+.produto {
+    border-bottom: solid .1rem #EC000C;
+    width: 60%;
+    display: flex;
+    font-size: 1.5rem;
+    color: #3A2C2C;
+    padding: 1.5rem 10rem;
+    
+}
+
+.produto h3 {
+    flex: 1;
+}
+
+h3.preco-produto {
+    text-align: right;
 }
