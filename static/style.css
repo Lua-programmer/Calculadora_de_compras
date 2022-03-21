@@ -79,13 +79,33 @@ input[type=submit] {
     justify-content: center;
 }
 
+.marcacao {
+    display: flex;
+    align-items: center;
+    padding: .5rem 2rem 0 0;
+}
+
+span.delete{
+    color:#3A2C2C;
+    cursor: pointer;
+    padding-left: 2rem;
+}
+
+span.delete:hover {
+    color: #EC000C;
+}
+
+span.ok {
+    cursor: pointer;
+}
+
 .produto {
     border-bottom: solid .1rem #EC000C;
     width: 60%;
     display: flex;
     font-size: 1.5rem;
     color: #3A2C2C;
-    padding: 1.5rem 10rem;
+    padding: 1.5rem 10rem 1rem 5rem;
     
 }
 
